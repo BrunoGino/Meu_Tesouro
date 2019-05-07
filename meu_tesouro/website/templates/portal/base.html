@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="keywords" content="investimentos, onde investir">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% if title %}
+            <title>{{ title }}</title>
+        {% else %}
+            <title>Meu Tesouro</title>
+        {% endif %}
+        <link rel="icon" type="image/png" href="img/logo.jpg"/>
+        <!-- LINKS BOOTSTRAP -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/style.css"/>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <!-- JS -->
+        <script src="js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+    <!-- Latest news section -->
+    <div class="latest-news-section">
+        <div class="ln-title">Recentes</div>
+        <div class="news-ticker">
+            <div class="news-ticker-contant">
+                <div class="nt-item"><span class="new" href="index.html">Dolar $ 1,00</span>R$ 3,86</div>
+                <div class="nt-item"><span class="strategy">Real $</span></div>
+                <div class="nt-item"><span class="racing">Euro € 1,00</span>R$ 4,34</div>
+                <div class="nt-item"><span class="new">Franco €</span>R$ 4,34</div>
+                <div class="nt-item"><span class="strategy">Euro €</span>R$ 4,34</div>
+                <div class="nt-item"><span class="racing">Euro €</span>R$ 4,34</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.marquee.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Latest news section end -->
+
+    <!-- INICIO - NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Meu Tesouro</a><!-- Brand com Texto -->
+        <!-- Brand com Imagem: <a class="navbar-brand" href="index.html" ><img src="img/logo1.png" width="150px"; height="50px"></a> -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conheça</a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Simule</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Compare</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Destaques</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+            <div class="my-2 my-lg-0">
+                <a href="#" class="btn btn-outline-warning " role="button" aria-pressed="true">Cadastre-se</a>
+                <a href="#" class="btn btn-outline-warning" role="button" aria-pressed="true">Login</a>
+            </div>
+        </div>
+    </nav>
+    <!-- FIM NAVBAR -->
+        <main role="main" class="container">
+            <div class ="row">
+                <div class="col-md-8">
+                    {% block content %}{% endblock %}
+                </div>
+            </div>
+        </main>
+    <!-- Footer -->
+    <footer class="page-footer font-small  pt-4 bg-dark">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row fonte">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase text-white"></h5>
+                    <p class="text-white"></p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase text-white ">FALE CONOSCO</h5>
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a href=""><img src="Site/img/whatsapp.png" width="30px" height="30px"><h5
+                                    class="text-uppercase text-white"></h5></a>
+                        </li>
+                        <li>
+                            <a href="tel:"><img src="Site/img/telefone.png" width="30px" height="30px"><h5
+                                    class="text-uppercase text-white"></h5></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
+
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 text-white">© 2019 Copyright | Todos os direitos reservados |
+            Desenvolvido por Alex/ Bruno G./ Bruno R./ Gilmar
+            <a href="" style="color: black"></a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    </body>
+</html>
