@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends "portal/base.html" %}
+{% load static %}
+{% block content %}
+{% for title in all_titles %}
+<div class="panel panel-default">
+    <div class="panel-thumbnail">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body bg-warning">
+                <h5 class="card-title">Card 1</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{ title.title_name }}</h6>
+                <p class="card-text">{{ title.title_type }}</p>
+                    <a href="#" class="card-link">{{ title.title_value }}</a>
+                <a href="#" class="card-link">{{ title.url }}</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endblock content %}

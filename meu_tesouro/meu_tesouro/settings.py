@@ -31,8 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'website.apps.WebSiteConfig',
+    'users',
+ #   'users.apps.UsersConfig',
     'crispy_forms',
+    'website',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,6 +42,26 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+
+## Configurações de e-mail ##
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'meutesouro.contato@gmail.com'
+EMAIL_HOST_PASSWORD = 's1lv3rsurf34'
+EMAIL_PORT = 587
+
+#############################
+
+
+################# Autenticação #########################
+
+AUTH_USER_MODEL = 'users.User'
+# Abaixo, backend de autenticação de e-mail
+AUTHENTICATION_BACKENDS = ('django.contrib.auth.backends.ModelBackend',)
+#'users.backends.UserAuth'
+########################################################
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -77,8 +99,14 @@ WSGI_APPLICATION = 'meu_tesouro.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        #'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'roxmu780_icfatec',
+        'USER': 'roxmu780_icfatec',
+        'PASSWORD': 'roxmu780_icfatec',
+        'HOST': '216.172.172.204',
+        'PORT': '3306',
     }
 }
 
@@ -105,7 +133,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
 TIME_ZONE = 'UTC'
 
@@ -122,3 +150,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+LOGIN_REDIRECT_URL = 'portal-home'
+LOGIN_URL = 'login'
+
+
