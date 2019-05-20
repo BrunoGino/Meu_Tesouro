@@ -34,7 +34,7 @@ class UserManager(BaseUserManager):
             last_login=now, date_joined=now, **extra_fields
         )
         user.set_password(password)
-        user.save(using=self.db)
+        user.save()
         return user
 
     def create_user(self, email, password=None, **extra_fields):
@@ -74,7 +74,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['first_name', 'last_name', 'cpf', 'birthday']
 
-    object = UserManager()
+    objects = UserManager()
 
     def __str__(self):
         return self.first_name

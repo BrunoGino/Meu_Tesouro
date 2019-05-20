@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc5605bd-10a6-451e-9fb8-816a9231fe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/meu_tesouro/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meu_tesouro/users/templates/users/acc_active_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meu_tesouro/users/tokens.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Meu_Tesouro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Meu_Tesouro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/meu_tesouro/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/meu_tesouro/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/meu_tesouro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/meu_tesouro/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meu_tesouro/meu_tesouro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/meu_tesouro/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/users/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/users/backends.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/users/backends.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/users/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meu_tesouro/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/users/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/users/templates/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/users/templates/users/logout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/users/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/users/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/users/templates/users/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/users/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meu_tesouro/users/templates/users/acc_active_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/users/templates/users/acc_active_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meu_tesouro/users/tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/users/tokens.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meu_tesouro/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/website/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/website/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/website/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/website/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/website/templates/portal/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/website/templates/portal/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/website/templates/portal/cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/website/templates/portal/cards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/website/templates/portal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/website/templates/portal/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/website/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/website/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,23 +17,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meu_tesouro/meu_tesouro/settings.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/meu_tesouro/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="217">
+              <caret line="69" column="8" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/meu_tesouro/users/views.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meu_tesouro/users/templates/users/acc_active_email.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meu_tesouro/users/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meu_tesouro/users/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -70,10 +66,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meu_tesouro/meu_tesouro/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meu_tesouro/users/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -82,40 +83,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meu_tesouro/meu_tesouro/urls.py">
+        <entry file="file://$PROJECT_DIR$/meu_tesouro/users/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#638#670#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meu_tesouro/website/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meu_tesouro/website/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meu_tesouro/website/templates/portal/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="93" column="34" selection-start-line="83" selection-start-column="20" selection-end-line="93" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -123,8 +97,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meu_tesouro/users/templates/users/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="135">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meu_tesouro/meu_tesouro/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+              <folding>
+                <element signature="e#638#670#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,7 +148,6 @@
         <option value="$PROJECT_DIR$/meu_tesouro/users/backends.py" />
         <option value="$PROJECT_DIR$/meu_tesouro/users/templates/users/profile.html" />
         <option value="$PROJECT_DIR$/meu_tesouro/website/admin.py" />
-        <option value="$PROJECT_DIR$/meu_tesouro/users/models.py" />
         <option value="$PROJECT_DIR$/meu_tesouro/website/templates/portal/index.html" />
         <option value="$PROJECT_DIR$/meu_tesouro/users/templates/users/logout.html" />
         <option value="$PROJECT_DIR$/meu_tesouro/website/templates/portal/base.html" />
@@ -170,20 +155,22 @@
         <option value="$PROJECT_DIR$/meu_tesouro/website/templates/portal/cards.html" />
         <option value="$PROJECT_DIR$/meu_tesouro/meu_tesouro/settings.py" />
         <option value="$PROJECT_DIR$/meu_tesouro/website/tokens.py" />
-        <option value="$PROJECT_DIR$/meu_tesouro/users/templates/users/acc_active_email.html" />
-        <option value="$PROJECT_DIR$/meu_tesouro/meu_tesouro/urls.py" />
         <option value="$PROJECT_DIR$/meu_tesouro/website/urls.py" />
-        <option value="$PROJECT_DIR$/meu_tesouro/users/forms.py" />
         <option value="$PROJECT_DIR$/meu_tesouro/users/templates/users/register.html" />
+        <option value="$PROJECT_DIR$/meu_tesouro/users/templates/users/acc_active_email.html" />
+        <option value="$PROJECT_DIR$/meu_tesouro/users/tokens.py" />
+        <option value="$PROJECT_DIR$/meu_tesouro/meu_tesouro/urls.py" />
+        <option value="$PROJECT_DIR$/meu_tesouro/users/models.py" />
+        <option value="$PROJECT_DIR$/meu_tesouro/users/forms.py" />
         <option value="$PROJECT_DIR$/meu_tesouro/users/views.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="650" />
-    <option name="height" value="743" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="534" />
+    <option name="y" value="27" />
+    <option name="width" value="640" />
+    <option name="height" value="456" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -253,7 +240,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/meu_tesouro/users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -298,7 +285,7 @@
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5023474" side_tool="true" weight="0.46822742" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.4976526" visible="true" weight="0.27742946" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.4976526" weight="0.33225283" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -370,9 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/meu_tesouro/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/meu_tesouro/users/templates/users/profile.py" />
     <entry file="file://$PROJECT_DIR$/meu_tesouro/website/tests.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -388,13 +372,6 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/users/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -425,23 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/users/backends.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/users/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meu_tesouro/users/templates/users/profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -451,13 +411,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Front-End/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meu_tesouro/users/templates/users/logout.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -483,10 +436,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/users/tests.py">
+    <entry file="file://$PROJECT_DIR$/meu_tesouro/website/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="315">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meu_tesouro/website/templates/portal/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="34" selection-start-line="83" selection-start-column="20" selection-end-line="93" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meu_tesouro/meu_tesouro/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="35" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meu_tesouro/website/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -500,58 +474,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/meu_tesouro/users/backends.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/meu_tesouro/users/tokens.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding>
             <element signature="e#0#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/users/templates/users/acc_active_email.html">
+    <entry file="file://$PROJECT_DIR$/meu_tesouro/users/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/website/models.py">
+    <entry file="file://$PROJECT_DIR$/meu_tesouro/users/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/website/templates/portal/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="93" column="34" selection-start-line="83" selection-start-column="20" selection-end-line="93" selection-end-column="34" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/meu_tesouro/meu_tesouro/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/meu_tesouro/users/templates/users/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/website/urls.py">
+    <entry file="file://$PROJECT_DIR$/meu_tesouro/meu_tesouro/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="91">
+          <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+          <folding>
+            <element signature="e#638#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meu_tesouro/users/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meu_tesouro/users/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meu_tesouro/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meu_tesouro/users/templates/users/acc_active_email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -562,27 +566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/meu_tesouro/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/meu_tesouro/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding>
-            <element signature="e#638#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meu_tesouro/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="217">
+          <caret line="69" column="8" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
