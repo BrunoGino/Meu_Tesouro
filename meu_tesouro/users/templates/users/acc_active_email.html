@@ -1,6 +1,10 @@
 {% autoescape off %}
 Olá {{ user.first_name }} !,
-Please click on the link to confirm your registration,
+Clique no link abaixo para confirmar o seu cadastro,
 
 http://{{ domain }}{% url 'activate' uidb64=uid token=token %}
+
+Atenciosamente,
+
+Equipe Meu Tesouro
 {% endautoescape %}
