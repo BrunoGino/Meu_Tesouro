@@ -35,6 +35,10 @@
     padding: 1px !important;
 font-size: small}
 
+.tamanho-container-cards{
+    height: 150px;
+}
+
 
 /*card carrousel*/
 
@@ -130,4 +134,6 @@ font-size: small}
 .news-ticker-contant .nt-item span.racing {
     background: #694eae;
 }
+
+
 
