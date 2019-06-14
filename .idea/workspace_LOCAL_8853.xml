@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc5605bd-10a6-451e-9fb8-816a9231fe20" name="Default Changelist" comment="">
-<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/meu_tesouro/website/templates/portal/about.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/meu_tesouro/website/templates/portal/contato.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Meu_Tesouro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Meu_Tesouro.iml" afterDir="false" />
@@ -4193,24 +4192,6 @@
       <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/sqlparse/utils.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/meu_tesouro/website/static/portal/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Meu_Tesouro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Meu_Tesouro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/website/static/portal/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/website/static/portal/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/website/templates/portal/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/website/templates/portal/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meu_tesouro/website/templates/portal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/meu_tesouro/website/templates/portal/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/django-admin" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/django-admin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/django-admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/django-admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install-3.6" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install-3.6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip3.6" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3.6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/easy-install.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools.pth" afterDir="false" />
->>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -4226,7 +4207,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meu_tesouro/website/templates/portal/base.html">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="540">
               <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
             </state>
@@ -4241,16 +4221,11 @@
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
-=======
-            <state relative-caret-position="-75">
-              <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
->>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/meu_tesouro/website/templates/portal/cards.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
@@ -4258,12 +4233,6 @@
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
-=======
-        <entry file="file://$PROJECT_DIR$/meu_tesouro/website/templates/portal/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="117" column="36" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="36" />
->>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
             </state>
           </provider>
         </entry>
@@ -4271,7 +4240,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meu_tesouro/website/templates/portal/about.html">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="75">
               <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
@@ -4292,10 +4260,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-=======
-            <state relative-caret-position="448">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
->>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
             </state>
           </provider>
         </entry>
@@ -4314,8 +4278,6 @@
     <findStrings>
       <find>index.html</find>
       <find>war</find>
-      <find>card-img-top-250</find>
-      <find>card-img-top</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -4352,7 +4314,6 @@
         <option value="$PROJECT_DIR$/meu_tesouro/website/static/portal/css/css.css" />
         <option value="$PROJECT_DIR$/meu_tesouro/website/static/portal/css/owl.carousel.css" />
         <option value="$PROJECT_DIR$/meu_tesouro/website/static/portal/css/animate.css" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/meu_tesouro/website/templates/portal/index.html" />
         <option value="$PROJECT_DIR$/meu_tesouro/meu_tesouro/__init__.py" />
         <option value="$PROJECT_DIR$/meu_tesouro/website/static/portal/css/style.css" />
@@ -4363,15 +4324,6 @@
         <option value="$PROJECT_DIR$/meu_tesouro/website/templates/portal/about.html" />
         <option value="$PROJECT_DIR$/meu_tesouro/website/templates/portal/cards.html" />
         <option value="$PROJECT_DIR$/meu_tesouro/website/views.py" />
-=======
-        <option value="$USER_HOME$/.local/lib/python3.6/site-packages/django/db/backends/mysql/base.py" />
-        <option value="$USER_HOME$/.local/lib/python3.6/site-packages/django/db/backends/mysql/operations.py" />
-        <option value="$PROJECT_DIR$/meu_tesouro/website/static/portal/js/alex.js" />
-        <option value="$PROJECT_DIR$/meu_tesouro/website/static/portal/js/script.js" />
-        <option value="$PROJECT_DIR$/meu_tesouro/website/templates/portal/base.html" />
-        <option value="$PROJECT_DIR$/meu_tesouro/website/static/portal/css/style.css" />
-        <option value="$PROJECT_DIR$/meu_tesouro/website/templates/portal/index.html" />
->>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
       </list>
     </option>
   </component>
@@ -4450,11 +4402,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/meu_tesouro/website/static/portal/css" />
-=======
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
->>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
     <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -4535,11 +4483,7 @@
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5023474" side_tool="true" weight="0.46822742" />
       <window_info id="Favorites" order="1" side_tool="true" />
-<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="2" sideWeight="0.4976526" weight="0.23637961" />
-=======
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.4976526" visible="true" weight="0.24848485" />
->>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6165884" />
@@ -4548,11 +4492,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3383948" />
-=======
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.65258217" />
->>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -4560,7 +4500,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" weight="0.32954547" />
+      <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="right" id="SciView" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -4569,15 +4509,8 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
-  </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/meu_tesouro/users/migrations/0002_auto_20190503_0053.py" />
-=======
->>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
     <entry file="file://$PROJECT_DIR$/meu_tesouro/users/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -4714,7 +4647,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meu_tesouro/website/static/portal/css/owl.carousel.css" />
     <entry file="file://$PROJECT_DIR$/meu_tesouro/website/static/portal/css/animate.css" />
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/meu_tesouro/website/templates/portal/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -4751,16 +4683,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meu_tesouro/meu_tesouro/__init__.py">
-=======
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/website/static/portal/css/font-awesome.min.css">
->>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/meu_tesouro/website/static/portal/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81480">
@@ -4789,84 +4717,13 @@
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
-=======
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/django/core/management/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="335" selection-start-line="335" selection-end-line="335" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/django/core/management/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="374" selection-start-line="374" selection-end-line="374" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/importlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/django/db/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="212" selection-start-line="212" selection-end-line="212" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/meu_tesouro/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/django/db/backends/mysql/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
->>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/django/db/backends/mysql/operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/website/static/portal/js/cardcerousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meu_tesouro/website/templates/portal/base.html">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="540">
           <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-=======
-        <state relative-caret-position="-75">
-          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/website/static/portal/js/script.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meu_tesouro/website/templates/portal/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="117" column="36" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="36" />
->>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
         </state>
       </provider>
     </entry>
@@ -4900,7 +4757,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meu_tesouro/meu_tesouro/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="240">
           <caret line="25" column="97" lean-forward="true" selection-start-line="25" selection-start-column="97" selection-end-line="25" selection-end-column="97" />
           <folding>
@@ -4943,10 +4799,6 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-=======
-        <state relative-caret-position="448">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
->>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
         </state>
       </provider>
     </entry>

@@ -28,9 +28,10 @@
 
 .imagem-carrosel {
     object-fit: cover !important;
-    height: 220px !important;
+    height: 280px !important;
 }
 
+<<<<<<< HEAD
 .contorno-fonte {
     stro
 }
@@ -5444,3 +5445,7 @@ ol {
 .pagination-action:hover{
     color: #3354AA;
 }
+=======
+----------------------------
+css card slider
+>>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
