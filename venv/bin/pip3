@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+#!/home/bruno/Meu_Tesouro/venv/bin/python
+=======
 #!/home/alexrebello/fatec/Meu_Tesouro/venv/bin/python
+>>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==19.0.3','console_scripts','pip3'
 __requires__ = 'pip==19.0.3'
 import re

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+#!/home/bruno/Meu_Tesouro/venv/bin/python
+=======
 #!/home/alexrebello/fatec/Meu_Tesouro/venv/bin/python
+>>>>>>> 0db5dc1f37eafd4dd1b76f6f98e4b7c8d8f6964e
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==40.8.0','console_scripts','easy_install'
 __requires__ = 'setuptools==40.8.0'
 import re

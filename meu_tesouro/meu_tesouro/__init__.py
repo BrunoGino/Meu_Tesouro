@@ -1,6 +1,6 @@
 from django.contrib import admin
-import pymysql
+#i#mport pymysql
 
-pymysql.install_as_MySQLdb()
+#pymysql.install_as_MySQLdb()
 
 # Register your models here.
