@@ -1,4 +1,4 @@
-#!/home/leko/fatec/Meu_Tesouro/venv/bin/python
+#!/home/bruno/Meu_Tesouro/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

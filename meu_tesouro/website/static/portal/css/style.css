@@ -5424,3 +5424,23 @@ ol {
     -webkit-animation-name: slideOutUp;
     animation-name: slideOutUp;
 }
+
+/*
+* Paginator
+*/
+.pagination {
+    text-align:center;
+    margin-top:1em;
+}
+
+.pagination-action{
+    margin: 0 0.1em;
+    display: inline-block;
+    padding: 0.5em;
+    color: #B9B9B9;
+    font-size: 1.3em;
+}
+
+.pagination-action:hover{
+    color: #3354AA;
+}
