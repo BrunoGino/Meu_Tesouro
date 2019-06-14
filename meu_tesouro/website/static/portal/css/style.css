@@ -31,11 +31,20 @@
     height: 280px !important;
 }
 
-.footer-copyright{
-    padding: 1px !important;
-font-size: small}
+.imagem-card-home {
+    object-fit: cover !important;
+    height: 200px !important;
+    width: 400px !important;
 
-.tamanho-container-cards{
+}
+
+
+.footer-copyright {
+    padding: 1px !important;
+    font-size: small
+}
+
+.tamanho-container-cards {
     height: 150px;
 }
 

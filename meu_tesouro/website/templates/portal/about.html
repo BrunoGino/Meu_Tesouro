@@ -1,37 +1,394 @@
 {% extends "portal/base.html" %}
 {% load static %}
-{% block content %}
-Receita de sagu de vinho
-Ingredientes
+{% block content %}<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <title>Informações</title>
 
-2 xícaras de sagu
+    </head>
+    <body>
 
-4 xícaras de vinho tinto
+    <div class="jumbotron text-center ">
+        <h1 class="font-noto">O que é Renda Fixa e por que investir?</h1>
+        <p>É o investimento realizado diretamente em Títulos Públicos e Privados de Renda Fixa. Quando você compra um
+            título de Renda Fixa, você está emprestando dinheiro ao emissor do papel, que pode ser um banco, uma empresa
+            ou mesmo o Governo. Em troca, recebe uma remuneração por um determinado prazo, na forma de juros e/ou
+            correção monetária, podendo receber, ainda, parcelas chamadas amortizações.</p>
+    </div>
 
-açúcar a gosto
+    <div class="container ">
+        <div class="row">
+            <!-- CARD 1 -->
+            <div class="col-md-4">
+                <h3 class="font-noto">CDB(Certificado de Depósito Bancário)</h3>
+                <p>A sigla CDB vem de Certificado de Depósito Bancário, que é um título de renda fixa emitido por bancos
+                    para captar dinheiro e financiar suas atividades. Em troca deste empréstimo de recursos ao banco, o
+                    mesmo irá devolver ao investidor a quantia aplicada mais o juro acordado no momento do
+                    investimento.</p>
+                <p>Uma das vantagens de investir em CDB é que esses títulos possuem uma rentabilidade maior que a
+                    poupança, podendo chegar até o dobro.</p>
+                <a class="btn btn-secondary fundo-azul-escuro font-noto" data-toggle="collapse" href="#card1"
+                   role="button" aria-expanded="false"
+                   aria-controls="collapseExample">Ver detalhes</a><br/><br/>
+                <div class="collapse" id="card1">
+                    <div class="card card-body">
+                        <h4>Por que investir em um CDB?</h4>
+                        <ul>
+                            <li><b>Rentabilidade:</b> maior que a poupança, uma das vantagens de investir em CDB é a
+                                maior rentabilidade, que pode chegar até o dobro da poupança.
+                            </li>
+                            <li><b>Segurança:</b> se o investimento for de até R$250 mil, seu título CDB será segurado
+                                pelo Fundo Garantidor de Créditos (FGC) por CPF ou CNPJ*. Esta garantia previne que o
+                                investidor perca o dinheiro aplicado, caso o banco quebre ou não consiga devolver a
+                                quantia prometida no prazo.
+                            </li>
+                            <li><b>Liquidez Diária:</b> ao deixar o dinheiro rendendo num investimento nem sempre é
+                                possível retirá-lo antes do prazo do vencimento. Se você optar por um CDB de liquidez
+                                diária, o dinheiro aplicado poderá ser recuperado no momento que julgar necessário.
+                            </li>
+                            <li><b>Facilidade:</b> é possível investir em um CDB através da Internet, basta apenas abrir
+                                sua conta sem custo na XP Investimentos, depois disso o investimento leva alguns minutos
+                                para ser realizado.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 2 -->
+            <div class="col-md-4">
+                <h3 class="font-noto">CRA (Certificado de Recebíveis do Agronegócio)</h3>
+                <p>Os Certificados de Recebíveis do Agronegócio estão vinculados a direitos creditórios originários de
+                    negócios realizados, em sua maioria, por produtores rurais ou suas cooperativas, relacionados ao
+                    financiamento da atividade agropecuária.</p>
+                <a class="btn btn-secondary fundo-azul-escuro font-noto" data-toggle="collapse" href="#card2"
+                   role="button" aria-expanded="false"
+                   aria-controls="collapseExample">Ver detalhes</a><br/><br/>
+                <div class="collapse" id="card2">
+                    <div class="card card-body">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>A remuneração pode ser em % do CDI, CDI + spread, Índices de preços (ex: IGP-M, IPCA) ou
+                                Taxa Prefixada;
+                            </li>
+                            <li>Possibilidade de estruturas com garantias (como alienação da terra e penhor da
+                                produção);
+                            </li>
+                            <li>São negociados no balcão e registrados na Cetip ou no BovespaFix;</li>
+                            <li>Isenção de IR e IOF para pessoa física no rendimento; ganhos de capital auferidos na
+                                alienação ou cessão dos ativos são isentos de IR para Pessoa Física (Instrução 1585);
+                            </li>
+                            <li>Liquidez restrita no mercado secundário;</li>
+                            <li>Destinado exclusivamente a investidores qualificados e profissionais;</li>
+                            <li>Produto registrado na CETIP em nome do cliente (CPF/CNPJ).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 3 -->
+            <div class="col-md-4">
+                <h3 class="font-noto">CRI(Certificado de Recebíveis Imobiliários)</h3>
+                <p>Os Certificados de Recebíveis Imobiliários são títulos lastreados em créditos imobiliários,
+                    representativos de parcelas de um direito creditório.</p>
+                <a class="btn btn-secondary fundo-azul-escuro font-noto" data-toggle="collapse" href="#card3"
+                   role="button" aria-expanded="false"
+                   aria-controls="collapseExample">Ver detalhes</a> <br/><br/>
+                <div class="collapse" id="card3">
+                    <div class="card card-body">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>A remuneração pode ser em % do CDI, CDI + spread, Índices de preços (ex: IGP-M, IPCA) ou
+                                Taxa Prefixada;
+                            </li>
+                            <li>Possibilidade de estruturas com garantias (recebíveis imobiliários e/ou alienação
+                                fiduciária do bem imobiliário);
+                            </li>
+                            <li>São negociados no balcão e registrados na Cetip ou no BovespaFix;</li>
+                            <li>Isenção de IR e IOF para pessoa física no rendimento; ganhos de capital auferidos na
+                                alienação ou cessão dos ativos são isentos de IR para Pessoa Física (Instrução 1585);
+                            </li>
+                            <li>Liquidez restrita no mercado secundário;</li>
+                            <li>Destinado a investidores em geral, qualificados e profissionais (a depender da
+                                oferta);
+                            </li>
+                            <li>Produto registrado na CETIP em nome do cliente (CPF/CNPJ).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="container">
+        <div class="row">
+            <!-- CARD 4 -->
+            <div class="col-md-4">
+                <h3 class="font-noto">Debêntures</h3>
+                <p>As debêntures são valores mobiliários que representam dívidas de médio e longo prazos de Sociedades
+                    Anônimas (emissoras).</p>
+                <a class="btn btn-secondary fundo-azul-escuro font-noto" data-toggle="collapse" href="#card4"
+                   role="button" aria-expanded="false"
+                   aria-controls="collapseExample">Ver detalhes</a><br/><br/>
+                <div class="collapse" id="card4">
+                    <div class="card card-body">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>A remuneração pode ser em % do CDI, CDI + spread, Índices de preços (ex: IGP-M, IPCA) ou
+                                Taxa Prefixada;
+                            </li>
+                            <li>São negociadas no balcão e registradas na Cetip ou no BovespaFix;</li>
+                            <li>Podem contar com a isenção de IR e IOF (para pessoa física) no rendimento e no ganho de
+                                capital, caso estejam enquadradas como debêntures de infraestrutura (Lei 12.431);
+                            </li>
+                            <li>Liquidez restrita no mercado secundário;</li>
+                            <li>Produto registrado na CETIP em nome do cliente (CPF/CNPJ).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 5 -->
+            <div class="col-md-4">
+                <h3 class="font-noto">DPGE (Depósito a prazo com garantia do FGC)</h3>
+                <p>Os DPGEs são depósitos a prazo emitidos por instituições financeiras. Os bancos comerciais,
+                    múltiplos, de desenvolvimento e investimento, as sociedades de crédito, financiamento e investimento
+                    e as caixas econômicos são as instituições autorizadas a emitir este ativo.</p>
+                <a class="btn btn-secondary fundo-azul-escuro font-noto" data-toggle="collapse" href="#card5"
+                   role="button" aria-expanded="false"
+                   aria-controls="collapseExample">Ver detalhes</a><br/><br/>
+                <div class="collapse" id="card5">
+                    <div class="card card-body">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>A remuneração pode ser em % do CDI, CDI + spread, Índices de preços (ex: IGP-M, IPCA) ou
+                                Taxa Prefixada;
+                            </li>
+                            <li>Aplicação garantida pelo Fundo Garantidor de Créditos (FGC) para valores até R$20
+                                milhões¹, por CPF ou CNPJ, por instituição ou conglomerado financeiro;
+                            </li>
+                            <li>Produto registrado na CETIP em nome do cliente (CPF/CNPJ);</li>
+                            <li>IOF para resgate antes de 30 dias;</li>
+                            <li>IR via tabela regressiva.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 6 -->
+            <div class="col-md-4">
+                <h3 class="font-noto">FIDC (Fundo de Investimento em Direitos Creditórios)</h3>
+                <p>Fundo de investimento que destina parcela preponderante de seu patrimônio líquido para aplicação em
+                    direitos e títulos representativos de créditos (direitos creditórios) provenientes de operações
+                    comerciais, industriais, imobiliárias, financeiras ou de prestação de serviços, entre outras.</p>
+                <a class="btn btn-secondary fundo-azul-escuro font-noto" data-toggle="collapse" href="#card6"
+                   role="button" aria-expanded="false"
+                   aria-controls="collapseExample">Ver detalhes</a><br/><br/>
+                <br/>
+                <div class="collapse" id="card6">
+                    <div class="card card-body">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>Rentabilidade diferenciada quando comparado a ativos com classificação de risco
+                                semelhante;
+                            </li>
+                            <li>Pode ser aberto (permitindo a entrada e saída de cotistas a qualquer tempo) ou fechado
+                                (a entrada de cotistas não é permitida após o período de captação, e a saída não é
+                                permitida antes do vencimento);
+                            </li>
+                            <li>Pode ter prazo de duração determinado (fundo fechado) ou indeterminado (fundo aberto);
+                            </li>
+                            <li>Liquidez restrita no mercado secundário;</li>
+                            <li>Destinado exclusivamente a investidores qualificados e profissionais;</li>
+                            <li>Investimento mínimo inicial de R$ 25 mil;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <!-- CARD 7 -->
+            <div class="col-md-4">
+                <h3 class="font-noto">LC (Letra de Câmbio)</h3>
+                <p>Instrumento de captação das financeiras, com o objetivo de financiar suas atividades. Você empresta
+                    dinheiro às financeiras em troca de uma rentabilidade preestabelecida.</p>
+                <a class="btn btn-secondary  fundo-azul-escuro font-noto" data-toggle="collapse" href="#card7"
+                   role="button" aria-expanded="false"
+                   aria-controls="collapseExample">Ver detalhes</a><br/><br/>
+                <div class="collapse" id="card7">
+                    <div class="card card-body">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>A remuneração pode ser em % do CDI, CDI + spread, Índices de preços (ex: IGP-M, IPCA) ou
+                                Taxa Prefixada;
+                            </li>
+                            <li>Aplicação garantida pelo Fundo Garantidor de Créditos (FGC) para valores até o limite de
+                                R$ 250mil por CPF ou CNPJ, por conjunto de depósitos e investimentos em cada instituição
+                                ou conglomerado financeiro, limitado a R$ 1.000.000,00 a cada período de 4 anos, para
+                                garantias pagas para cada CPF ou CNPJ. Para mais informações, acesse o site do FGC .
+                            </li>
+                            <li>Produto registrado na CETIP em nome do cliente (CPF/CNPJ);</li>
+                            <li>IOF para resgate antes de 30 dias;</li>
+                            <li>IR via tabela regressiva.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 8 -->
+            <div class="col-md-4">
+                <h3 class="font-noto">LCA (Letra de Crédito do Agronegócio)</h3>
+                <p>Título emitido por instituições financeiras públicas e privadas, vinculado a direitos creditórios
+                    originários do agronegócio.</p>
+                <a class="btn btn-secondary  fundo-azul-escuro font-noto" data-toggle="collapse" href="#card8"
+                   role="button" aria-expanded="false"
+                   aria-controls="collapseExample">Ver detalhes</a><br/><br/>
+                <div class="collapse" id="card8">
+                    <div class="card card-body">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>A remuneração pode ser em % do CDI, CDI + spread, Índices de preços (ex: IGP-M, IPCA) ou
+                                Taxa Prefixada;
+                            </li>
+                            <li>Aplicação garantida pelo Fundo Garantidor de Créditos (FGC) para valores até o limite de
+                                R$ 250mil por CPF ou CNPJ, por conjunto de depósitos e investimentos em cada instituição
+                                ou conglomerado financeiro, limitado a R$ 1.000.000,00 a cada período de 4 anos, para
+                                garantias pagas para cada CPF ou CNPJ. Para mais informações, acesse o site do FGC .
+                            </li>
+                            <li>Isenção de IR para pessoa física no rendimento e no ganho de capital;</li>
+                            <li>Produto registrado na CETIP em nome do cliente (CPF/CNPJ);</li>
+                            <li>IR via tabela regressiva para investidores PJ.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 9 -->
+            <div class="col-md-4">
+                <h3 class="font-noto">LCI (Letra de Crédito Imobiliário)</h3>
+                <p>Instrumento de captação que pode ser emitido por instituições autorizadas pelo Banco Central, com
+                    objetivo de financiar o setor imobiliário que tem como lastro financiamentos imobiliários garantidos
+                    por hipoteca ou alienação fiduciária do imóvel.</p>
+                <a class="btn btn-secondary fundo-azul-escuro font-noto" data-toggle="collapse" href="#card9"
+                   role="button" aria-expanded="false"
+                   aria-controls="collapseExample">Ver detalhes</a><br/><br/>
+                <div class="collapse" id="card9">
+                    <div class="card card-body">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>A remuneração pode ser em % do CDI, CDI + spread, Índices de preços (ex: IGP-M, IPCA) ou
+                                Taxa Prefixada;
+                            </li>
+                            <li>Aplicação garantida pelo Fundo Garantidor de Créditos (FGC) para valores até o limite de
+                                R$ 250mil por CPF ou CNPJ, por conjunto de depósitos e investimentos em cada instituição
+                                ou conglomerado financeiro, limitado a R$ 1.000.000,00 a cada período de 4 anos, para
+                                garantias pagas para cada CPF ou CNPJ. Para mais informações, acesse o site do FGC .
+                            </li>
+                            <li>Isenção de IR para pessoa física no rendimento e no ganho de capital;</li>
+                            <li>Produto registrado na CETIP em nome do cliente (CPF/CNPJ);</li>
+                            <li>IR via tabela regressiva para investidores PJ.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <!-- CARD 10 -->
+            <div class="col-md-4">
+                <h3 class="font-noto">Letra Financeira</h3>
+                <p>Instrumento de captação de recursos exclusivo das instituições financeiras.</p>
+                <a class="btn btn-secondary fundo-azul-escuro font-noto" data-toggle="collapse" href="#card10"
+                   role="button" aria-expanded="false"
+                   aria-controls="collapseExample">Ver detalhes</a><br/><br/>
+                <div class="collapse" id="card10">
+                    <div class="card card-body">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>Prazo mínimo de 2 anos (sênior) e 5 anos (subordinada);</li>
+                            <li>É vedado resgate total ou parcial antes do vencimento;</li>
+                            <li>Investimento mínimo de R$150 mil (sênior) e R$ 300 mil (subordinada);</li>
+                            <li>A remuneração pode ser em % do CDI, CDI + spread, Índices de preços (ex: IGP-M, IPCA) ou
+                                Taxa Prefixada;
+                            </li>
+                            <li>Liquidez restrita no mercado secundário;</li>
+                            <li>Produto registrado na CETIP em nome do cliente (CPF/CNPJ).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 11 -->
+            <div class="col-md-4">
+                <h3 class="font-noto">Tesouro Direto</h3>
+                <p>Tesouro Direto é um programa do Governo Federal desenvolvido em 2002 através de uma parceria entre o
+                    Tesouro Nacional e a B3 (antiga BM&FBovespa). O objetivo desse programa é facilitar o acesso de
+                    pessoas físicas à investimentos em títulos públicos através da internet.</p>
+                <a class="btn btn-secondary fundo-azul-escuro font-noto" data-toggle="collapse" href="#card11"
+                   role="button" aria-expanded="false"
+                   aria-controls="collapseExample">Ver detalhes</a><br/><br/>
+                <div class="collapse" id="card11">
+                    <div class="card card-body">
+                        <h4>Por que investir no Tesouro Direto?</h4>
+                        <ul>
+                            <li><b>Rentabilidade:</b> O Tesouro Direto possui uma rentabilidade superior comparada a
+                                caderneta de poupança, e essa vantagem se torna mais significativa ao longo dos anos.
+                            </li>
+                            <li><b>Acessível:</b> com uma aplicação mínima de R$ 30 é possível realizar a compra de um
+                                título. Por isso, é uma ótima opção para quem possui uma menor quantia inicial para
+                                investir.
+                            </li>
+                            <li><b>Segurança:</b> o Tesouro Direto é um dos investimentos mais seguros do mercado, já
+                                que todo o investimento é feito ao Governo Federal. Ou seja, além de render, você ainda
+                                tem a tranquilidade de que seu dinheiro estará seguro.
+                            </li>
+                            <li><b>Resgaste:</b> a liquidez dos títulos é diária. Todo dia através da plataforma do
+                                Tesouro Direto ocorre a recompra e venda dos títulos do Tesouro, mesmo que o investidor
+                                não tenha ficado com o título pelo prazo contratado. Contudo, o título só pode ser
+                                vendido a preço de mercado do dia da operação de venda. Em todo caso, esse tipo de
+                                investimento dá segurança e liberdade para manusear o título da forma mais adequada para
+                                cada um.
+                            </li>
+                            <li><b>Facilidade:</b> o Tesouro Direto é um investimento muito conveniente, pois é possível
+                                investir e acompanhar os seus títulos através da internet. É necessário fazer um
+                                cadastro no site do Tesouro e outro cadastro em uma corretora como a XP. Aqui na XP o
+                                cadastro é somente pela internet, e é rápido, fácil e seguro.
+                            </li>
+                            <li><b>Variedade:</b> existem cinco tipos de títulos, com perfis diferentes, para
+                                investimentos a curto, médio e longo prazo. Por exemplo, se a intenção é investir para
+                                comprar um imóvel, existem títulos que são mais rentáveis do que simplesmente reservar o
+                                dinheiro mensalmente na poupança para conseguir realizar a entrada da casa ou apto. Um
+                                outro objetivo pode ser a aposentadoria. Podem ser encontrados títulos de diversos
+                                prazos, porém quanto maior o tempo investido maior a rentabilidade.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 13 -->
+            <div class="col-md-4">
+                <h3 class="font-noto">Títulos Públicos Federais</h3>
+                <p>São títulos emitidos pelo Governo, por meio do Tesouro Nacional, com a finalidade de captar recursos
+                    para o financiamento da atividade pública. Em função disso, são vistos pelo mercado como de baixo
+                    risco.</p>
+                <a class="btn btn-secondary fundo-azul-escuro font-noto" data-toggle="collapse" href="#card12"
+                   role="button" aria-expanded="false"
+                   aria-controls="collapseExample">Ver detalhes</a><br/><br/>
+                <div class="collapse" id="card12">
+                    <div class="card card-body">
+                        <h4>Vantagens</h4>
+                        <ul>
+                            <li><b>Segurança:</b> 100% garantidos pelo Tesouro Nacional.</li>
+                            <li><b>Liquidez:</b> Liquidez diária pela plataforma da XP</li>
+                            <li><b>Baixo custo:</b> Baixo custo e baixo valor mínimo exigido de aplicação.</li>
+                            <li><b>Diversidade:</b> Opções de investimentos pré ou pós fixados, além de opção para
+                                proteção quanto à inflação.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
 
-6 xícaras de água
-Sagu de vinho
-Sagu de vinho
 
-Modo de preparo
+    </body>
 
-Comece a receita deixando o sagu de molho por 15 minutos em uma travessa com água.
-
-Depois desse tempo, escorra a água.
-
-Coloque o sagu para ferver em uma panela só com água por uns 10 a 15 minutos, sempre mexendo.
-
-Após os 15 minutos ou assim que algumas bolinhas começarem a ficar transparentes, despeje o conteúdo da panela em um escorredor de macarrão e os lave com água corrente.
-
-Enquanto o sagu está escorrendo, coloque na panela o vinho, o açúcar e uma xícara de água.
-
-Leve ao fogo baixo e quando começar a ferver, acrescente o sagu.
-
-Espere cozinhar por aproximadamente 15 minutos, até que todas as bolinhas fiquem transparentes.
-
-Quando atingir esse ponto, desligue o fogo e coloque em um recipiente.
-
-Aguarde esfriar antes de servir.
-Sagu de vinho: um prato delicioso de festa junina
 {% endblock content %}

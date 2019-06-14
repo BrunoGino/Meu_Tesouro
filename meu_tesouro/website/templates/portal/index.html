@@ -48,88 +48,38 @@
 
     {# inicio carrosel de cards#}
 
-    <section class="carousel slide tamanho-container-cards"
-             data-ride="carousel"
-             data-interval="10000"
-             id="postsCarousel">
-
-        <div class="container p-t-0 m-t-2 carousel-inner">
-            <div class="row row-equal carousel-item active m-t-0">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="../../static/portal/img/logoativa.png" alt="Carousel 1">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h2>9,25%</h2>
-                            <h4>Why Stuff Happens Every Year.</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="../../static/portal/img/logotesouro.png" alt="Carousel 2">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h2>9,25%</h2>
-                            <h4>Why Stuff Happens Every Year.</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="../../static/portal/img/logoorama.jpg" alt="Carousel 3">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h2>9,25%</h2>
-                            <h4>Why Stuff Happens Every Year.</h4>
-                        </div>
-                    </div>
-                </div>
+    <div class="card-deck font-noto mr-lg-3 ml-lg-3">
+        <div class="card p-3" style="width:20rem;">
+            <img class="card-img-top " src="../../static/portal/img/logoativa.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title text-center">126,00% CDI - LC</h4>
+                <p class="card-text text-center">AVISTA FINANCEIRA</p>
+                <p class="card-text text-center">Vencimento: 13/06/2024</p>
             </div>
-
-            <div class="row row-equal carousel-item m-t-0">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="../../static/portal/img/logotesouro.png" alt="Carousel 4">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h2>9,25%</h2>
-                            <h4>Why Stuff Happens Every Year.</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="../../static/portal/img/logoorama.jpg" alt="Carousel 5">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h2>9,25%</h2>
-                            <h4>Why Stuff Happens Every Year.</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 fadeIn wow">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="../../static/portal/img/logoativa.png" alt="Carousel 6">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h2>9,25%</h2>
-                            <h4>Why Stuff Happens Every Year.</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
-    </section>
+        <div class="card p-3" style="width:20rem;">
+            <img class="card-img-top " src="../../static/portal/img/tesouro.jpg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title text-center">7,90% - TD</h4>
+                <p class="card-text text-center">Prefixado Juros Semestrais</p>
+                <p class="card-text text-center">Vencimento: 01/01/2029 </p>
+            </div>
+        </div>
+        <div class="card p-3" style="width:20rem;">
+            <img class="card-img-top " src="../../static/portal/img/logoorama.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title text-center">10,34% - CDB</h4>
+                <p class="card-text text-center">Banco Máxima</p>
+                <p class="card-text text-center">Vencimento: 18/05/2026	</p>
+            </div>
+        </div>
+            <div class="card p-3" style="width:20rem;">
+            <img class="card-img-top " src="../../static/portal/img/logoorama.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title text-center">7,11% - LCI</h4>
+                <p class="card-text text-center">Banco ABC Brasil</p>
+                <p class="card-text text-center">Vencimento: 08/12/2020	</p>
+            </div>
+        </div>
+    </div>
 {% endblock content %}
