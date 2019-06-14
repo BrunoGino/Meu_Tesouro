@@ -14,6 +14,7 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
           crossorigin="anonymous">
     <link rel="stylesheet" href="../../static/portal/css/style.css">
+    <link rel="stylesheet" href="../../static/portal/css/owl.carousel.css">
 
     {# Font Noto Sans - Alex Refactor #}
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
@@ -45,7 +46,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mr-auto mt-4 mt-lg-0">
-            <div class="espaco"></div>
             <li class="nav-item ">
                 <a class="nav-link font-noto align-text-top" href="{% url 'portal-titulos' %}">Títulos</a>
             </li>
@@ -71,19 +71,31 @@
 </nav>
 
 <br><br>
-<!-- Cotações-->
+<!-- Indicadores de inflação e taxas-->
 <div class="latest-news-section">
-    <div class="ln-title text-right">
+    <div class="ln-title font-noto">
         Indices:
     </div>
     <div class="news-ticker">
         <div class="news-ticker-contant">
-            <div class="nt-item"><span class="new" href="index.html">Dolar $ 1,00</span>R$ 3,86</div>
-            <div class="nt-item"><span class="strategy">Real $</span></div>
-            <div class="nt-item"><span class="racing">Euro € 1,00</span>R$ 4,34</div>
-            <div class="nt-item"><span class="new">Franco €</span>R$ 4,34</div>
-            <div class="nt-item"><span class="strategy">Euro €</span>R$ 4,34</div>
-            <div class="nt-item"><span class="racing">Euro €</span>R$ 4,34</div>
+            <div class="nt-item">
+                <span class="new font-noto">Dolar - R$ 3,85</span>
+            </div>
+            <div class="nt-item ">
+                <span class="strategy font-noto">Euro - R$ 4,34</span>
+            </div>
+            <div class="nt-item">
+                <span class="racing font-noto">CDI - 6,42%</span>
+            </div>
+            <div class="nt-item">
+                <span class="new font-noto">SELIC - 6,50%</span>
+            </div>
+            <div class="nt-item">
+                <span class="strategy font-noto">IPCA - 4,66%</span>
+            </div>
+            <div class="nt-item">
+                <span class="racing font-noto">Poupança - 4,55%</span>
+            </div>
         </div>
     </div>
 </div>
@@ -100,8 +112,8 @@
 {% endif %}
 {% block content %}{% endblock %}
 
-<nav class="navbar navbar-dark fundo-azul-escuro font-noto fixed-bottom">
-  <span class="navbar-text">
+<nav class="navbar navbar-dark fundo-azul-escuro fixed-bottom">
+  <span class="navbar-text font-noto footer-copyright">
       Alex R, Bruno G, Bruno R, Gilmar T © 2019
   </span>
 </nav>
@@ -122,8 +134,8 @@
 <script src="../../static/portal/js/jquery.marquee.min.js"></script>
 <script src="../../static/portal/js/main.js"></script>
 
-    {# Card slide imports - Alex Refactor #}
-    <script src="../../static/portal/js/script.js"></script>
+{# Card slide imports - Alex Refactor #}
+<script src="../../static/portal/js/script.js"></script>
 
 </body>
 </html>
