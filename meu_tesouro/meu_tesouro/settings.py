@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'users',
  #   'users.apps.UsersConfig',
     'crispy_forms',
+    'pymysql',
     'website',
     'django.contrib.admin',
     'django.contrib.auth',

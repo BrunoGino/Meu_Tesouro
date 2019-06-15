@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import Title
 from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-
+from . import  filters
 # Trata do tráfego de urls da aplicação web
 
 
@@ -25,19 +25,20 @@ def contato(request):
 @login_required()
 def title(request):
     # Querysets
-    qs = Title.objects.all()
+  #  qs = Title.objects.all()
+    paginator_qs = filters.TitleFilter(request.GET, queryset=Title.objects.all()).qs
     tipos = Title.objects.values('title_type').distinct()
 
     # Paginação
 
-    paginator = Paginator(qs, 15)
+    paginator = Paginator(paginator_qs, 15)
     page = request.GET.get('page')
     try:
-        titulos = paginator.page(page)
+        titulos = paginator.get_page(page)
     except PageNotAnInteger:
-        titulos = paginator.page(1)
+        titulos = paginator.get_page(1)
     except EmptyPage:
-        titulos = paginator.page(paginator.num_pages)
+        titulos = paginator.get_page(paginator.num_pages)
 
     # Pega parâmetros do objeto
 
@@ -48,22 +49,26 @@ def title(request):
     ending_date_max = request.GET.get('ending_date_max')
 
     if is_valid_queryparam(title_type) and title_type != 'Tipo do título...':
-        qs = qs.filter(title_type=title_type)
+        paginator_qs = paginator_qs.filter(title_type=title_type)
 
     if is_valid_queryparam(title_value_min):
-        qs = qs.filter(title_value__gte=title_value_min)
+        paginator_qs = paginator_qs.filter(title_value__gte=title_value_min)
 
     if is_valid_queryparam(title_value_max):
-        qs = qs.filter(title_value__lt=title_value_max)
+        paginator_qs = paginator_qs.filter(title_value__lt=title_value_max)
 
     if is_valid_queryparam(ending_date_min):
-        qs = qs.filter(ending_date__gte=ending_date_min)
+        paginator_qs = paginator_qs.filter(ending_date__gte=ending_date_min)
 
     if is_valid_queryparam(ending_date_max):
-        qs = qs.filter(ending_date__lt=ending_date_max)
+        paginator_qs = paginator_qs.filter(ending_date__lt=ending_date_max)
+
+   # titulos = paginator.paginate_queryset(paginator_qs, request)
+
+# Não filtra, conflito com a paginação
 
     context = {
-        'queryset': qs,
+       # 'queryset': qs,
         'tipos': tipos,
         'paginator_titulos': titulos,
     }

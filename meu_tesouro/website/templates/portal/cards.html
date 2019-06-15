@@ -41,7 +41,7 @@
 
 <div class="container">
     <div class="card-deck">
-        {% for title in queryset %}
+        {% for title in paginator_titulos %}
         <div class="card" style="flex-grow: 2;">
             <div class="card-block">
                 <h5 class="card-title">{{ title.title_type }}</h5>
