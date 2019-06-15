@@ -1,87 +1,101 @@
 {% extends "portal/base.html" %}
 {% load static %}
 {% block content %}
-<form>
-  <div class="form-row">
-    <div class="form-group col-md-4">
-      <label>Tipo</label>
-      <select id="tipo_titulo" name="tipo_titulo" class="form-control">
-        <option selected>Tipo do título...</option>
-          <option value="TD">TD</option>
-          <option value="LC">LC</option>
-          <option value="CDB">CDB</option>
-          <option value="LCI">LCI</option>
-          <option value="LCA">LCA</option>
-          <option value="LF">LF</option>
-      </select>
-    </div>
-      <div class="form-group">
-          <div class="form-group col-md-6">
-              <label>Valor mínimo</label>
-              R$<input type="number" class="form-control" id="title_value_min" min="1" max="99999">
-          </div>
-           <div class="form-group col-md-6">
-              <label>Valor máximo</label>
-              R$<input type="number" class="form-control" id="title_value_max" min="1" max="99999999">
-          </div>
-       </div>
-      <div class="form-row">
-          <div class="form-group col-md-6">
-              <label>Vencimento mínimo</label>
-             <input type="date" name="ending_date_min" id="ending_date_min">
-          </div>
-              <div class="form-group col-md-6">
-              <label>Vencimento máximo</label>
-             <input type="date" name="ending_date_max" id="ending_date_max">
-          </div>
-      </div>
-  </div>
-  <button type="submit" class="btn btn-primary">Filtrar</button>
-</form>
+    <div class="container pb-5 pb-5 font-noto">
+        <br/>
+        <h2>Titulos</h2>
+        <br/>
+        <form class="mx-auto">
+            <div class="form-row align-items-center">
+                <div class="col-auto">
+                    <label for="tipo_titulo">Tipo</label>
+                    <select id="tipo_titulo" name="tipo_titulo" class="form-control mb-2">
+                        <option selected>Tipo do título...</option>
+                        <option value="TD">TD</option>
+                        <option value="LC">LC</option>
+                        <option value="CDB">CDB</option>
+                        <option value="LCI">LCI</option>
+                        <option value="LCA">LCA</option>
+                        <option value="LF">LF</option>
+                    </select>
+                </div>
 
-<div class="container">
-    <div class="card-deck">
-        {% for title in paginator_titulos %}
-        <div class="card" style="flex-grow: 2;">
-            <div class="card-block">
-                <h5 class="card-title">{{ title.title_type }}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">{{ title.title_name }}</h6>
-                <p class="card-text">{{ title.title_value }}</p>
-                Vencimento:<p class="card-text">{{ title.ending_date }}</p>
-                <a href="{{ title.url }}" target="_blank" class="btn btn-primary">Verificar</a>
+                <div class="col-auto">
+                    <label for="title_value_min">Valor mínimo</label>
+                    <input type="number" class="form-control mb-2" id="title_value_min" min="1" max="99999"
+                           placeholder="R$">
+                </div>
+                <div class="col-auto">
+                    <label for="title_value_max">Valor máximo</label>
+                    <input type="number" class="form-control mb-2" id="title_value_max" min="1"
+                           max="99999999"
+                           placeholder="R$">
+                </div>
+
+                <div class="form-row align-items-center">
+                    <div class="col-auto">
+                        <label for="ending_date_min">Vencimento mínimo</label>
+                        <input type="date" class="form-control mb-2" name="ending_date_min"
+                               id="ending_date_min">
+                    </div>
+                    <div class="col-auto">
+                        <label for="ending_date_max">Vencimento máximo</label>
+                        <input type="date" class="form-control mb-2" name="ending_date_max"
+                               id="ending_date_max">
+                    </div>
+                    <div class="col-auto pt-4">
+                        <button type="submit" class="btn fundo-azul-escuro text-white pr-4 pl-4">Filtrar</button>
+                    </div>
+                </div>
             </div>
+        </form>
+        <br/>
+
+
+        <div class="card-columns">
+            {% for title in paginator_titulos %}
+                <div class="card m-2" style="flex-grow: 2;">
+                    <div class="card-block m-2 align-items-center">
+                        <h5 class="card-title text-center">{{ title.interest }}% - {{ title.interest_type }}
+                            - {{ title.title_type }}</h5>
+                        <p class="card-subtitle mb-2 text-muted text-center">{{ title.title_name }}</p>
+                        <p class="card-text text-center">R$ {{ title.title_value }}</p>
+                        <p class="card-text text-center">Vencimento: {{ title.ending_date }}</p>
+                        <a href="{{ title.url }}" target="_blank"
+                           class="btn btn-sm btn-block btn-secondary text-white">Verificar</a>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
-        {% endfor %}
+
+        <div class="pagination">
+
+            {% if paginator_titulos.has_previous %}
+                <a class="pagination-action" href="?page=1">
+                    <i class="fas fa-angle-double-left"></i>
+                </a>
+                <a class="pagination-action" href="?page={{ all_titles.previous_page_number }}">
+                    <i class="fas fa-angle-left"></i>
+                </a>
+            {% endif %}
+
+            {% for title in paginator_titulos.paginator.page_range %}
+                {% if paginator_titulos.number == title %}
+                    <strong>{{ title }}</strong>
+                {% elif title > paginator_titulos.number|add:'-4' and title < paginator_titulos.number|add:'4' %}
+                    {{ title }}
+                {% endif %}
+            {% endfor %}
+
+            {% if paginator_titulos.has_next %}
+                <a class="pagination-action" href="?page={{ all_titles.next_page_number }}">
+                    <i class="fas fa-angle-right"></i>
+                </a>
+                <a class="pagination-action" href="?page={{ all_titles.paginator.num_pages }}">
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            {% endif %}
+
+        </div>
     </div>
-
-    <div class="pagination">
-
-        {% if paginator_titulos.has_previous %}
-        <a class="pagination-action" href="?page=1">
-            <i class="fas fa-angle-double-left"></i>
-        </a>
-        <a class="pagination-action" href="?page={{ all_titles.previous_page_number }}">
-            <i class="fas fa-angle-left"></i>
-        </a>
-        {% endif %}
-
-        {% for title in paginator_titulos.paginator.page_range %}
-        {% if paginator_titulos.number == title %}
-        <strong>{{ title }}</strong>
-        {% elif title > paginator_titulos.number|add:'-4' and title < paginator_titulos.number|add:'4' %}
-        {{ title }}
-        {% endif %}
-        {% endfor %}
-
-        {% if paginator_titulos.has_next %}
-        <a class="pagination-action" href="?page={{ all_titles.next_page_number }}">
-            <i class="fas fa-angle-right"></i>
-        </a>
-        <a class="pagination-action" href="?page={{ all_titles.paginator.num_pages }}">
-            <i class="fas fa-angle-double-right"></i>
-        </a>
-        {% endif %}
-
-    </div>
-</div>
- {% endblock content %}
+{% endblock content %}
