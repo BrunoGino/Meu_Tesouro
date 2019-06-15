@@ -1,15 +1,19 @@
 {% extends "portal/base.html" %}
 {% block content %}
-<main role="main" class="container">
-    <div class="row">
-        <div class="col-md-8">
-            <div class = "content-section">
-                <h2>Você efetuou o logout!</h2>
-                <div class="border-top pt-3">
-                    <small class="text-muted"><a class="btn btn-outline-warning" role="button" aria-pressed="true" href="{% url 'login' %}">Entrar novamente</a></small>
+    <main role="main" class="container font-noto">
+        <br/>
+        <h2>Você efetuou o logout!</h2>
+        <br/>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="content-section">
+                    <div class="border-top pt-3">
+                        <small class="text-muted"><a class="btn fundo-azul-escuro text-white" role="button"
+                                                     aria-pressed="true" href="{% url 'login' %}">Entrar novamente</a>
+                        </small>
+                    </div>
                 </div>
-             </div>
+            </div>
         </div>
-    </div>
-</main><br><br>
+    </main><br><br>
 {% endblock content %}

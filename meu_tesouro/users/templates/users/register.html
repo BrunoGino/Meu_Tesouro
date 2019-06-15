@@ -1,25 +1,28 @@
 {% extends "portal/base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
-<main role="main" class="container">
-    <div class="row">
-        <div class="col-md-8">
-            <div class = "content-section">
-                <form method="POST">
-                    {% csrf_token %}
-                    <fieldset class="form-group">
-                        <legend class="border-bottom mb-4">Cadastre-se !</legend>
-                        {{ form|crispy}}
-                    </fieldset>
-                    <div class="form-group">
-                        <button class="btn btn-outline-info" type="submit">Inscreva-se</button>
+    <main role="main" class="container font-noto">
+        <br/>
+        <h2>Cadastre-se !</h2>
+        <br/>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="content-section">
+                    <form method="POST">
+                        {% csrf_token %}
+                        <fieldset class="form-group">
+                            {{ form|crispy }}
+                        </fieldset>
+                        <div class="form-group">
+                            <button class="btn fundo-azul-escuro text-white" type="submit">Inscreva-se</button>
+                        </div>
+                    </form>
+                    <div class="border-top pt-3">
+                        <small class="text-muted">Ja é cadastrado?<a class="ml-2" href="{% url 'login' %}">Entrar</a>
+                        </small>
                     </div>
-                </form>
-                <div class="border-top pt-3">
-                    <small class="text-muted">Ja é cadastrado?<a class="ml-2" href="{% url 'login' %}">Entrar</a></small>
                 </div>
-             </div>
+            </div>
         </div>
-    </div>
-</main>
+    </main>
 {% endblock content %}
