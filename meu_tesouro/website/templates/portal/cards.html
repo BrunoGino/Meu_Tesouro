@@ -1,4 +1,5 @@
 {% extends "portal/base.html" %}
+{% load l10n %}
 {% load static %}
 {% block content %}
     <div class="container pb-5 pb-5 font-noto">
@@ -51,15 +52,14 @@
         </form>
         <br/>
 
-
         <div class="card-columns">
             {% for title in paginator_titulos %}
                 <div class="card m-2" style="flex-grow: 2;">
                     <div class="card-block m-2 align-items-center">
-                        <h5 class="card-title text-center">{{ title.interest }}% - {{ title.interest_type }}
+                        <h5 class="card-title text-center">{{ title.interest|floatformat:"2" }}% - {{ title.interest_type }}
                             - {{ title.title_type }}</h5>
                         <p class="card-subtitle mb-2 text-muted text-center text-truncate">{{ title.title_name }}</p>
-                        <p class="card-text text-center">R$ {{ title.title_value }}</p>
+                        <p class="card-text text-center">R$ {{ title.title_value|floatformat:"2" }}</p>
                         <p class="card-text text-center">Vencimento: {{ title.ending_date }}</p>
                         <a href="{{ title.url }}" target="_blank"
                            class="btn btn-sm btn-block btn-secondary text-white">Verificar</a>
