@@ -51,9 +51,9 @@
             </div>
         </form>
         <br/>
-
+        {# SE utilizado .qs no final carrega o query set e habilita o filtro #}
         <div class="card-columns">
-            {% for title in paginator_titulos %}
+            {% for title in paginator_titulos.qs %}
                 <div class="card m-2" style="flex-grow: 2;">
                     <div class="card-block m-2 align-items-center">
                         <h5 class="card-title text-center">{{ title.interest|floatformat:"2" }}% - {{ title.interest_type }}
